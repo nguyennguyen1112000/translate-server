@@ -17,7 +17,7 @@ export class AppService {
         },
         {
           headers: {
-            Authorization: authKey,
+            Authorization: `DeepL-Auth-Key ${authKey}`,
           },
         },
       ),
